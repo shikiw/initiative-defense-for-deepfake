@@ -1,4 +1,4 @@
-## PyTorch Implementation for "Initiative Defense against Facial Manipulation"
+### PyTorch Implementation for "Initiative Defense against Facial Manipulation"
 
 <p align="center"><img width="100%" src="teaser.png" /></p>
 
