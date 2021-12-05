@@ -6,7 +6,7 @@ This repository provides the official PyTorch implementation of the following pa
 >
 
 
-## Data and Model
+## Preparation
 Download pretrained models from [pretrained_model](https://drive.google.com/drive/folders/1oPzxXOP4k-X4w9GEdf2a9Pnh4Xz_Qdcx?usp=sharing) and put them into ``` ./checkpoints```. 
 Download clean faces for test from [clean_faces](https://drive.google.com/file/d/1mG1CNyi0sutpA1P2B3BRWeUpUI6BlVgw/view?usp=sharing) and unzip them into ``` ./clean_faces```. 
 
