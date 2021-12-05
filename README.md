@@ -1,4 +1,4 @@
-## Initiative Defense against Facial Manipulation - Official PyTorch Implementation
+## Official PyTorch Implementation for "Initiative Defense against Facial Manipulation"
 
 This repository provides the official PyTorch implementation of the following paper:
 > **Initiative Defense against Facial Manipulation (AAAI 2021)**<br>
