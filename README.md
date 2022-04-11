@@ -47,5 +47,8 @@ year={2021}
 }
 ```
 
+## License
+The code is released under MIT License (see LICENSE file for details).
+
 ## Acknowledgements
 This work is heavily based on [StarGAN](https://github.com/yunjey/stargan).
