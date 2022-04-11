@@ -1,9 +1,9 @@
-# PyTorch Implementation for Conference Paper "Initiative Defense against Facial Manipulation (AAAI-21)"
+# PyTorch Implementation for Conference Paper "Initiative Defense against Facial Manipulation (AAAI 2021)"
 
 <p align="center"><img width="100%" src="teaser.png" /></p>
 
 This repository provides the official PyTorch implementation of the following paper:
-> **Initiative Defense against Facial Manipulation (AAAI-21)**<br>
+> **Initiative Defense against Facial Manipulation (AAAI 2021)**<br>
 > https://ojs.aaai.org/index.php/AAAI/article/view/16254/16061 <br>
 >
 
