@@ -528,9 +528,6 @@ class Solver(object):
         #                4. Update attack model using current paras of StarGAN                #
         # =================================================================================== #
 
-        # self.PG.train()
-        # self.PD.eval()
-
         # Get adversarial data with PG.
         pert = self.PG(x_real) * self.eps
         x_adv = torch.clamp(x_real + pert, -1.0, 1.0)
