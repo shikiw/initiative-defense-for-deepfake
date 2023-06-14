@@ -279,6 +279,8 @@ class Solver(object):
             elif self.dataset == 'RaFD':
                 c_org = self.label2onehot(label_org, self.c_dim)
                 c_trg = self.label2onehot(label_trg, self.c_dim)
+            else:
+                exit(0)
 
             x_real = x_real.to(self.device)           # Input images.
             c_org = c_org.to(self.device)             # Original domain labels.
@@ -525,9 +527,6 @@ class Solver(object):
         # =================================================================================== #
         #                4. Update attack model using current paras of StarGAN                #
         # =================================================================================== #
-
-        # self.PG.train()
-        # self.PD.eval()
 
         # Get adversarial data with PG.
         pert = self.PG(x_real) * self.eps
